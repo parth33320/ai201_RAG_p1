@@ -1,0 +1,8 @@
+# 1. Stage the files (includes your code, md files, and the new .gitignore)
+git add .gitignore README.md planning.md app.py generate.py ingest.py
+
+# 2. Commit the changes
+git commit -m "feat: complete RAG pipeline with recursive chunking and Gradio interface"
+
+# 3. Push to your repository
+git push origin main
